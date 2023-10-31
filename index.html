@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>HTML5 API. Контрольная точка: квадратики</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1 class="title">Drag and Drop API</h1>
+
+    <div id="container">
+        <div id="element-red" draggable="true" ondragstart="drag(event)"></div>
+        <div id="element-gray" draggable="true" ondragstart="drag(event)"></div>
+        <div id="element-yellow" draggable="true" ondragstart="drag(event)"></div>
+        <div id="area-red" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="area-gray" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="area-yellow" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
